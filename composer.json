@@ -1,0 +1,31 @@
+{
+    "name": "sakib/asif-custom-auth-package",
+    "type": "library",
+    "description": "Authentication for laravel 9",
+    "keywords": [
+        "auth",
+        "asif-auth"
+    ],
+    "homepage": "https://github.com/sakib2439/asif-auth",
+    "license": "MIT",
+    "require": {},
+    "authors": [
+        {
+            "name": "Asiful Islam Sakib",
+            "email": "sakib2439@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sakib\\AsifAuth\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sakib\\AsifAuth\\Providers\\AsifAuthServiceProvider"
+            ]
+        }
+    }
+}
