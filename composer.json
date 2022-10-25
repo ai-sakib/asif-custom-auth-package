@@ -1,5 +1,5 @@
 {
-    "name": "sakib/asif-custom-auth-package",
+    "name": "sakib/asif-auth",
     "type": "library",
     "description": "Authentication for laravel 9",
     "keywords": [
